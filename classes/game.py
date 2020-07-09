@@ -1,10 +1,11 @@
 import random
-import math
+# import math
 
-from classes.magic import *
-from classes.inventory import *
-from classes.objects import *
 from classes.color import BColors
+# from classes.magic import *
+# from classes.inventory import *
+# from classes.objects import *
+
 
 
 def spacer():

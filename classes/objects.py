@@ -5,7 +5,7 @@ import copy
 from classes.color import BColors
 from classes.magic import Spell
 from classes.game import spacer
-from classes.inventory import Item, Bag
+from classes.inventory import Item
 
 
 class Character:
@@ -357,7 +357,7 @@ def create_enemies():
 
 
 def boss(source):
-    mir0, mir1, mir2, mir3 = " ", " ", " ", " "
+    mir0, mir1, mir2, mir3 = None, None, None, None
     mirror = [mir0, mir1, mir2, mir3]
     idx = 0
     for partymember in source:

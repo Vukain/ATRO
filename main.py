@@ -1,11 +1,14 @@
 import random
-import copy
 import colorama
+# import copy
+
 from classes.color import BColors
-from classes.objects import *
-from classes.magic import *
-from classes.inventory import *
-from classes.game import *
+from classes.game import logo, draw_statuses, player_action, enemy_action, en_spacer, \
+    check_death, gain_xp, shop, drop_loot
+from classes.inventory import Bag
+from classes.objects import create_party, create_enemies, plitems, spacer, story, items_list, \
+    boss, shop_items
+# from classes.magic import *
 
 
 def main():
