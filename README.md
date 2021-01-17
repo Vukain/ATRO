@@ -6,4 +6,4 @@ narration dependant on situation.
 # Requirements
 Requires colorama installed.
 # Live Repl
-https://atro.michalpi.repl.run
+https://repl.it/@MichalPi/ATRO
