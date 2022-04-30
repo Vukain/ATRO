@@ -1,9 +1,16 @@
-# ATRO
+## ATRO
+
 An old style text based RPG in which you lead your party to get rich and powerful, or into oblivion.
-# Features
+
+## Features
+
 Create own party or use a premade one, 4 hero classes, abilities/spells/items, diferent enemy types with own spells/abilities, gaining XP/loot/gold, shopping after battle,
 narration dependant on situation.
-# Requirements
+
+## Requirements
+
 Requires colorama installed.
-# Live Repl
+
+## Live Repl
+
 https://repl.it/@MichalPi/ATRO
