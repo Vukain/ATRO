@@ -10,7 +10,7 @@ from classes.inventory import Item
 
 class Character:
 
-    def __init__(self, name, klas, hp, mp, atk, defnd, mgk, actions, lvl=0, xp=0, rge=0, callout=""):
+    def __init__(self, name, klas, hp, mp, atk, defnd, mgk, actions, lvl=1, xp=0, rge=0, callout=""):
         self.name = name
         self.callout = callout
         self.klas = klas
@@ -30,7 +30,7 @@ class Character:
         self.max_xp = 100
 
     def gen_dmg(self, target):
-        dmg = random.randint(self.atk_l, self.atk_h) + (self.lvl*5) - target.defnd
+        dmg = random.randint(self.atk_l, self.atk_h) + ((self.lvl - 1) *5) - target.defnd
         if dmg > 0:
             return dmg
         else:
