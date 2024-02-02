@@ -373,7 +373,7 @@ def boss(source):
 story = {"Trolls": {"start": "While walking through a barren wasteland, you noticed three big rocks close to each other"
                              ".\nFinally a place to rest in a shadow!\nWhen you stood close to the biggest rock "
                              "trying to choose the best spot for the camp...\n"
-                             "Suddenly it shaken and moved a bit.\n"
+                             "Suddenly it shook and moved a bit.\n"
                              "Those aren't rocks, those are Mountain Trolls you genius...",
                     "ending": "All Trolls are now stone cold and they still cast a nice shadow...",
                     "killed": "The terrain excluding the 3 big rocks is flat again, just like your party.",
